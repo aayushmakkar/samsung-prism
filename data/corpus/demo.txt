@@ -1,0 +1,19 @@
+Samsung PRISM is a technology innovation program focused on research, engineering, and problem solving.
+
+Streaming Live RAG allows an AI system to retrieve information while a user's request is still being spoken or developed.
+
+A retrieval controller decides whether the system should WAIT for more information, RETRIEVE relevant information, or SUPPRESS retrieval for irrelevant or conversational input.
+
+Multi-intent decomposition breaks a single natural-language request into multiple distinct retrieval queries.
+
+Evidence fusion combines results from multiple retrieval queries into a unified evidence set.
+
+Session-aware synthesis uses information from the current conversation session to refine previous answers when the user provides additional details.
+
+Telemetry records system events such as controller decisions, retrieval timing, query decomposition, evidence selection, and answer generation.
+
+FAISS can be used for local vector similarity search over embedded document chunks.
+
+Sentence Transformers can generate embeddings for text chunks before they are stored in a vector index.
+
+Grounded generation means that the final answer should be based on retrieved evidence rather than unsupported information.
